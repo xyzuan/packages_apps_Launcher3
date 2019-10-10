@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Preference
+            android:key="about_ancient"
+            android:title="@string/about_ancient_title"
+            android:summary="@string/about_ancient_summary"
+            android:persistent="false" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Ancient-Lab/packages_apps_Launcher3" />
+        </Preference>
+
+        <Preference
+            android:key="about_based_on"
+            android:title="@string/about_based_on_title"
+            android:summary="@string/about_based_on_summary"
+            android:persistent="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://android.googlesource.com/platform/packages/apps/Launcher3/" />
+        </Preference>
+
+        <Preference
+            android:key="about_app_version"
+            android:title="@string/about_app_version"
+            android:persistent="false"/>
+
+        <Preference
+            android:key="app_info"
+            android:title="@string/app_info_drop_target_label"
+            android:persistent="false">
+            <intent
+                android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
+                android:data="package:com.android.launcher3" />
+        </Preference>
+
+    <PreferenceCategory 
+        android:title="@string/about_thanks_cat" >
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Balo Seribu"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit02"
+            android:title="Reza Adi Pangestu"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit03"
+            android:title="Jody Yuantoro"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Guzram"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Sept126"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Kubil Hadinata"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen> 
